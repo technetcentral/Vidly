@@ -25,11 +25,15 @@ namespace Vidly.Controllers
             // create instance of the movie model
             var movie = new Movie() {Name = "Shrek!"};
 
-            return View(movie);  // returns move object
+            
+
+            return View(movie);  
+            /*
             // return Content("Hello World!");
            //  return HttpNotFound(); // returns 404 page not found page
            //return new EmptyResult();    
            // return RedirectToAction("Index", "Home", new {page =1, sortby = "name"});
+           */
         }
 
 
